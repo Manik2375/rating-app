@@ -1,0 +1,15 @@
+.icon {
+	place-items: center;
+	border-radius: 50%;
+	background: var(--faded-blue);
+	width: 3em;
+	height: 3em;
+	aspect-ratio: 1;
+	display: grid;
+	place-items: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: var(--primary-gap-2x);
+}

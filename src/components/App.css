@@ -1,0 +1,22 @@
+.wrapper {
+	width: min(90%, 45ch);
+	background: var(--dark-blue);
+	padding: var(--primary-gap-2x) calc(var(--primary-gap) * 1.5);
+	border-radius: var(--border-radius);
+	box-shadow: 0 0.1em 1em var(--box-shadow);
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: var(--medium-grey);
+	line-height: 1.55;
+	font-weight: 500;
+}
+.wrapper > * {
+	display: flex;
+	flex-direction: column;
+	gap: var(--primary-gap-2x);
+}

@@ -1,0 +1,35 @@
+.rating-buttons-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: calc(var(--primary-gap) * 1.5);
+}
+
+.rating-button {
+	flex-basis: 3.5em;
+	height: 3.5em;
+	aspect-ratio: 1;
+	font-weight: 500;
+	color: var(--medium-grey);
+	background: var(--faded-blue);
+	border: 0;
+	border-radius: 50%;
+	cursor: pointer;
+	user-select: none;
+}
+
+.rating-button:hover {
+	background: var(--medium-grey);
+	color: var(--white);
+}
+.rating-button:focus {
+	outline: 0.3em solid var(--v-dark-blue);
+}
+
+.rating-button.rating-button__selected {
+	background: var(--orange);
+	color: var(--white);
+}
+.rating-button.rating-button__selected:focus {
+	outline: 0.3em solid hsla(var(--orange-raw), 0.5);
+}

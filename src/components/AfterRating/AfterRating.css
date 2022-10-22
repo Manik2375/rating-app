@@ -1,0 +1,22 @@
+article.flex-wrapper {
+	align-items: center;
+}
+img {
+	max-width: 30ch;
+}
+
+.rating-result {
+	color: var(--orange);
+	background: var(--faded-blue);
+	border-radius: 10em;
+	padding: 0.5em var(--primary-gap);
+}
+
+.heading {
+	text-align: center;
+}
+.thank-content {
+	text-align: center;
+	font-weight: 500;
+	margin-top: var(--primary-gap);
+}
