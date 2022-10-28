@@ -36,7 +36,7 @@ body {
 #root {
 	width: inherit;
 	min-height: inherit;
-	padding: var(--primary-gap-2x);
+	padding-block: var(--primary-gap-2x);
 	display: grid;
 	place-items: center;
 }

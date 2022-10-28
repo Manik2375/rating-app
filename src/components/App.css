@@ -1,5 +1,5 @@
 .wrapper {
-	width: min(90%, 45ch);
+	width: min(90%, 40ch);
 	background: var(--dark-blue);
 	padding: var(--primary-gap-2x) calc(var(--primary-gap) * 1.5);
 	border-radius: var(--border-radius);

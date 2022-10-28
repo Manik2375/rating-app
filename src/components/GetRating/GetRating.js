@@ -19,11 +19,13 @@ class GetRating extends React.Component {
 				<div className="icon">
 					<img src={icon} alt="Just a star" width="17" height="16" />
 				</div>
-				<h1>How did we do?</h1>
-				<p>
+				<div>
+					<h1>How did we do?</h1>
+				<p className="content">
 					Please let us know how we did with your support request. All feedback is
 					appreciated to help us improve our offerings!
 				</p>
+				</div>
 				<form onSubmit={this.submitHandler}>
 					<RatingButtons
 						onRatingChange={this.props.onRatingChange}

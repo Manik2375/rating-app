@@ -13,3 +13,6 @@ form {
 	flex-direction: column;
 	gap: var(--primary-gap-2x);
 }
+.content {
+	margin-top: var(--primary-gap)
+}
